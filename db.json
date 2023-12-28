@@ -8,14 +8,69 @@
         {
           "expenses": [
             {
-              "amount": "10",
-              "description": "Drink",
+              "amount": "20",
+              "description": "IceCream",
               "shares": [
                 {
                   "owed": "10",
                   "user": {
                     "id": "user1",
                     "name": "Alice"
+                  }
+                },
+                {
+                  "owed": "10",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "",
+                  "user": {
+                    "id": "user3",
+                    "name": "Clara"
+                  }
+                },
+                {
+                  "owed": "",
+                  "user": {
+                    "id": "user4",
+                    "name": "Dave"
+                  }
+                }
+              ]
+            },
+            {
+              "amount": "20",
+              "description": "Dog",
+              "shares": [
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user1",
+                    "name": "Alice"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user3",
+                    "name": "Clara"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user4",
+                    "name": "Dave"
                   }
                 }
               ]
@@ -27,7 +82,110 @@
           }
         },
         {
-          "expenses": [],
+          "expenses": [
+            {
+              "amount": "20",
+              "description": "Lice",
+              "shares": [
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user1",
+                    "name": "Alice"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user3",
+                    "name": "Clara"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user4",
+                    "name": "Dave"
+                  }
+                }
+              ]
+            },
+            {
+              "amount": "20",
+              "description": "Ice",
+              "shares": [
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user1",
+                    "name": "Alice"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user3",
+                    "name": "Clara"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user4",
+                    "name": "Dave"
+                  }
+                }
+              ]
+            },
+            {
+              "amount": "250",
+              "description": "Lice",
+              "shares": [
+                {
+                  "owed": "62.50",
+                  "user": {
+                    "id": "user1",
+                    "name": "Alice"
+                  }
+                },
+                {
+                  "owed": "62.50",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "62.50",
+                  "user": {
+                    "id": "user3",
+                    "name": "Clara"
+                  }
+                },
+                {
+                  "owed": "62.50",
+                  "user": {
+                    "id": "user4",
+                    "name": "Dave"
+                  }
+                }
+              ]
+            }
+          ],
           "user": {
             "id": "user2",
             "name": "Bob"
@@ -41,10 +199,108 @@
           }
         },
         {
-          "expenses": [],
+          "expenses": [
+            {
+              "amount": "20",
+              "description": "Cake",
+              "shares": [
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user1",
+                    "name": "Alice"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user3",
+                    "name": "Clara"
+                  }
+                },
+                {
+                  "owed": "5.00",
+                  "user": {
+                    "id": "user4",
+                    "name": "Dave"
+                  }
+                }
+              ]
+            }
+          ],
           "user": {
             "id": "user4",
             "name": "Dave"
+          }
+        }
+      ]
+    },
+    {
+      "balance": "+$30",
+      "id": "group2",
+      "name": "Group 2",
+      "participants": [
+        {
+          "expenses": [
+            {
+              "amount": "20",
+              "description": "Ice",
+              "shares": [
+                {
+                  "owed": "10.00",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "10.00",
+                  "user": {
+                    "id": "user5",
+                    "name": "Eve"
+                  }
+                }
+              ]
+            }
+          ],
+          "user": {
+            "id": "user2",
+            "name": "Bob"
+          }
+        },
+        {
+          "expenses": [
+            {
+              "amount": "2000",
+              "description": "ricw",
+              "shares": [
+                {
+                  "owed": "1000.00",
+                  "user": {
+                    "id": "user2",
+                    "name": "Bob"
+                  }
+                },
+                {
+                  "owed": "1000.00",
+                  "user": {
+                    "id": "user5",
+                    "name": "Eve"
+                  }
+                }
+              ]
+            }
+          ],
+          "user": {
+            "id": "user5",
+            "name": "Eve"
           }
         }
       ]
@@ -53,27 +309,28 @@
   "users": [
     {
       "id": "user1",
-      "email": "alice@email.com",
       "phoneNumber": "123-456-7890",
-      "password": "alicepassword"
+      "name": "Alice"
     },
     {
       "id": "user2",
-      "email": "bob@email.com",
       "phoneNumber": "234-567-8901",
-      "password": "bobpassword"
+      "name": "Bob"
     },
     {
       "id": "user3",
-      "email": "clara@email.com",
       "phoneNumber": "345-678-9012",
-      "password": "clarapassword"
+      "name": "Clara"
     },
     {
       "id": "user4",
-      "email": "dave@email.com",
       "phoneNumber": "456-789-0123",
-      "password": "davepassword"
+      "name": "Dave"
+    },
+    {
+      "id": "user5",
+      "phoneNumber": "567-890-1234",
+      "name": "Eve"    
     }
   ]
 }
